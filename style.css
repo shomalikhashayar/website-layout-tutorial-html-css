@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+}
+/* Sticky Header */
+.header {
+  height: 100px;
+  background-color: rgb(237, 0, 146);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 45px;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3);
+  position: sticky;
+  top: 0;
+}
+
+.header img {
+  width: 50px;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.navigation ul {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Sticky Footer */
+.footer {
+  height: 100px;
+  background-color: #ed0092;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 0 45px;
+  position: relative;
+  bottom: 0;
+}
+
+.logo-footer img {
+  width: 50px;
+  height: auto;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 50%;
+}
+
+.footer .text {
+  text-align: center;
+}
+
+.navigation-footer ul {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  color: aliceblue;
+}
+/* Card Section */
+.card-section {
+  height: 600px;
+  background-color: rgb(42, 42, 42);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 45px;
+}
+
+.card {
+  width: 250px;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  padding: 80px 40px;
+  border-radius: 9px;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+/* Hero Section */
+.hero-section {
+  height: 600px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./images/heromoon2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 600px;
+  text-align: center;
+  color: white;
+}
+
+.content > h1 {
+  margin-bottom: 10px;
+}
+
+.content > p {
+  margin-bottom: 10px;
+  line-height: 30px;
+}
+
+.button > button {
+  background-color: #fffffff2;
+  color: #ed0092;
+  font-size: 22px;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 9px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.button > button:hover {
+  background-color: #ed0092;
+  color: white;
+}
